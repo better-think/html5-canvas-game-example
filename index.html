@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>canvas Game</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+
+<body>
+<div id="page">
+<div class="header">
+
+        <div class="title">HTML Canvas Demo Game</div>
+		
+    </div>
+    <canvas id="c"></canvas>
+		
+    <script type="text/javascript">
+
+        document.getElementById('close').onmousedown = function(e) {
+            e.preventDefault();
+            document.getElementById('info').style.display = 'none';
+            return false;
+        };
+		
+    </script>
+    
+    <script type="text/javascript" src="Cloth.js"></script>
+	</div>
+	
+	</body>
+
+</html>
